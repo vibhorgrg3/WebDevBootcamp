@@ -1,7 +1,13 @@
 body {
     margin: 0px;
+    font-size: 30px;
+    background-color: beige;
 }
 
+.main {
+    display: flex;
+    flex-direction: column;
+}
 
 .navbar {
     display: flex;
@@ -33,4 +39,69 @@ body {
     font-family: 'Anek Malayalam', sans-serif;
     font-weight: 1000;
     font-size: 2.5rem;
+}
+
+.column {
+    margin-bottom: 50px;
+}
+
+.title {
+    font-size: 3rem;
+    margin-left: 30px;
+
+}
+
+.value {
+    margin-left: 100px;
+    font-size: 2rem;
+}
+
+.section-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+table {
+    padding: 0;
+    border: none;
+    width: 70%;
+}
+
+thead {
+    margin: 0px;
+    background-color: rgba(255, 127, 80, 0.84);
+}
+
+tbody {
+    margin: 0px;
+    background-color: rgba(137, 43, 226, 0.475);
+}
+
+tr {
+    margin: 0px;
+    height: 50px;
+}
+
+td {
+    margin: 0px;
+
+    padding: 5px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.footer-img {
+    height: 90px;
+    width: 90px;
+    margin-left: 30px;
+    border-radius: 10px;
 }
